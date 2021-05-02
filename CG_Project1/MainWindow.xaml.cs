@@ -402,34 +402,6 @@ namespace CG_lab1KM
 
         }
 
-        //private void a00_TextChanged(object sender, TextChangedEventArgs e)
-        //{
-
-            
-        //    float[,] new_kernel = new float[3, 3];
-        //    int i = 0;
-        //    int j = 0;
-        //    if (labpart_panel != null)
-        //    {
-        //        var panel = labpart_panel.Children;
-        //        foreach (StackPanel stack in panel)
-        //        {
-        //            foreach (TextBox box in stack.Children)
-        //            {
-
-        //                float number1;
-        //                new_kernel[i, j] = Single.TryParse(box.Text, out number1) ? number1 : 1.0f;
-        //                //if (number1 == 0)
-        //                //    box.Text = "1";
-        //                j++;
-        //            }
-        //            i++;
-        //            j = 0;
-        //        }
-        //    }
-        //    Filters.lb.Matrix = new_kernel;
-        //}
-
         private void a20_LostFocus(object sender, RoutedEventArgs e)
         {
             TextBox temp = e.Source as TextBox;
